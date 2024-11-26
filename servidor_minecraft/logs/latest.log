@@ -185,3 +185,25 @@
 [26Nov2024 23:16:09.457] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [26Nov2024 23:20:06.768] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheCuriosooo[/127.7.126.38:44943] logged in with entity id 262 at (5.5, 89.0, 3.5)
 [26Nov2024 23:20:06.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheCuriosooo joined the game
+[26Nov2024 23:26:27.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheCuriosooo fell from a high place
+[26Nov2024 23:29:41.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheCuriosooo has made the advancement [Stone Age]
+[26Nov2024 23:30:56.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheCuriosooo has made the advancement [Monster Hunter]
+[26Nov2024 23:32:40.172] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Maurx_[/127.180.12.37:55587] logged in with entity id 3562 at (-5.5, 96.0, 2.5)
+[26Nov2024 23:32:40.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Maurx_ joined the game
+[26Nov2024 23:32:48.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> a
+[26Nov2024 23:32:50.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TheCuriosooo> a
+[26Nov2024 23:33:00.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> el diablo
+[26Nov2024 23:33:08.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> que tal va?
+[26Nov2024 23:33:22.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TheCuriosooo> A MI MELO
+[26Nov2024 23:33:29.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> sisas igual, sabe que toca
+[26Nov2024 23:33:32.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> pongalo premium
+[26Nov2024 23:33:36.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> para vernos las skin
+[26Nov2024 23:33:40.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> creo que por defecto
+[26Nov2024 23:33:42.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> esa crak
+[26Nov2024 23:33:47.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TheCuriosooo> no dice como
+[26Nov2024 23:33:51.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> es facil
+[26Nov2024 23:33:56.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TheCuriosooo> solo dice como iniciar este monda
+[26Nov2024 23:34:09.886] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheCuriosooo hit the ground too hard
+[26Nov2024 23:34:10.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> en ajuste de server en el server.properties poner el online-mode=true
+[26Nov2024 23:34:14.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Maurx_> esta en false
+[26Nov2024 23:34:26.446] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <TheCuriosooo> ya miro
