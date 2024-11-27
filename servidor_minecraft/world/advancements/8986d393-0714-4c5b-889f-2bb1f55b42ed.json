@@ -1,0 +1,75 @@
+{
+  "securitycraft:recipes/securitycraft/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2024-11-27 23:03:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-11-27 23:03:02 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_dark_oak_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_crimson_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_acacia_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/securitycraft/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:savanna_plateau": "2024-11-27 22:52:49 +0000",
+      "minecraft:river": "2024-11-27 22:53:16 +0000",
+      "minecraft:dripstone_caves": "2024-11-27 22:59:21 +0000",
+      "minecraft:swamp": "2024-11-27 22:54:54 +0000",
+      "minecraft:forest": "2024-11-27 22:50:21 +0000",
+      "minecraft:savanna": "2024-11-27 22:50:58 +0000",
+      "minecraft:plains": "2024-11-27 22:50:47 +0000"
+    },
+    "done": false
+  },
+  "securitycraft:recipes/securitycraft/secret_birch_sign_item": {
+    "criteria": {
+      "has_sign": "2024-11-27 23:02:44 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 2975
+}
