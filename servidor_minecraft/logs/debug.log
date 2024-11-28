@@ -440,3 +440,57 @@
 [19:30:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo lost connection: Disconnected
 [19:30:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo left the game
 [19:30:42] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:31:27] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:32:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:32:57] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:33:42] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:34:27] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:35:12] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:35:34] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player TheCuriosooo is 8986d393-0714-4c5b-889f-2bb1f55b42ed
+[19:35:34] [Server thread/INFO] [FML]: Connection received without FML marker, assuming vanilla.
+[19:35:34] [Server thread/INFO] [FML]: Opening channel which already seems to have a state set. This is a vanilla connection. Handshake handler will stop now
+[19:35:34] [Server thread/INFO] [FML]: [Server thread] Server side vanilla connection established
+[19:35:34] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: TheCuriosooo[/127.7.126.38:55075] logged in with entity id 5068 at (-195.96313061617704, 69.0, 267.2129537067529)
+[19:35:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo joined the game
+[19:35:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped TheCuriosooo
+[19:35:57] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:36:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[19:36:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
+[19:36:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.001s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.001s
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.002s
+[19:36:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:36:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:36:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[19:36:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[19:36:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:36:19] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[19:36:19] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[19:36:19] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[19:36:19] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.001s
+[19:36:19] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[19:36:19] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[19:36:19] [Server Shutdown Thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo lost connection: Server closed
+[19:36:19] [Server Shutdown Thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo left the game
+[19:36:19] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
