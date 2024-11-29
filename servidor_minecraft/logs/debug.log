@@ -11618,3 +11618,112 @@ com.google.gson.JsonSyntaxException: Unknown item 'techguns:shishkebap'
 [18:10:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [18:10:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
 [18:11:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:12:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:12:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has made the advancement [Acquire Hardware]
+[18:13:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:13:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has made the advancement [Isn't It Iron Pick]
+[18:13:24] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo lost connection: Disconnected
+[18:13:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo left the game
+[18:13:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:13:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod techguns_core
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod techguns_core
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Techguns Core took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod securitycraft
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod securitycraft
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - SecurityCraft took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod bibliotheca
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod bibliotheca
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Bibliotheca took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod chococraft
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod chococraft
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Chococraft 3 took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod hammertime
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod hammertime
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Hammer Time took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mca
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mca
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Comes Alive took 0.006s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mutantbeasts
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mutantbeasts
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Mutant Beasts took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod radixcore
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod radixcore
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - RadixCore took 0.001s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod techguns
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod techguns
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Techguns took 0.000s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod llibrary
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod llibrary
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - LLibrary took 0.001s
+[18:13:59] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod jurassicraft
+[18:13:59] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod jurassicraft
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - JurassiCraft took 0.000s
+[18:13:59] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.012s
+[18:13:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:13:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:13:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[18:13:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[18:13:59] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:14:00] [Server thread/INFO] [FML]: Unloading dimension 0
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod techguns_core
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod techguns_core
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Techguns Core took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod securitycraft
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod securitycraft
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - SecurityCraft took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod bibliotheca
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod bibliotheca
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Bibliotheca took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod chococraft
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod chococraft
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Chococraft 3 took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod hammertime
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod hammertime
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Hammer Time took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mca
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mca
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Comes Alive took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mutantbeasts
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mutantbeasts
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Mutant Beasts took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod radixcore
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod radixcore
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - RadixCore took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod techguns
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod techguns
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Techguns took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod llibrary
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod llibrary
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - LLibrary took 0.000s
+[18:14:00] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod jurassicraft
+[18:14:00] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod jurassicraft
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - JurassiCraft took 0.000s
+[18:14:00] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.003s
+[18:14:00] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[18:14:00] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[18:14:00] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
