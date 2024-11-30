@@ -14810,3 +14810,47 @@ Caused by: java.io.FileNotFoundException: https://gist.github.com/gegy1000/a6639
 [03:23:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
 [03:23:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
 [03:23:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:23:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:23:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
+[03:23:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:24:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:24:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:24:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:25:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:25:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
+[03:25:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
+[03:25:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:25:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:25:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:25:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
+[03:25:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:25:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:25:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:26:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:26:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:27:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:27:17] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id techguns:zombiesoldier
+[03:27:17] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id techguns:zombiesoldier
+[03:27:17] [Server thread/WARN] [net.minecraft.tileentity.TileEntity]: Skipping BlockEntity with id techguns:tgspawner
+[03:27:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:27:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
+[03:28:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:28:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:29:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:30:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:31:00] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:31:45] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:32:30] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[03:32:51] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:36701: Failed to verify username!
+[03:32:51] [User Authenticator #2/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
+[03:32:51] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:36701 lost connection: Failed to verify username!
+[03:32:59] [User Authenticator #3/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:45261: Failed to verify username!
+[03:32:59] [User Authenticator #3/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
+[03:32:59] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:45261 lost connection: Failed to verify username!
+[03:33:03] [User Authenticator #4/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:36017: Failed to verify username!
+[03:33:03] [User Authenticator #4/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
+[03:33:03] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:36017 lost connection: Failed to verify username!
+[03:33:06] [User Authenticator #5/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:48075: Failed to verify username!
+[03:33:06] [User Authenticator #5/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
+[03:33:06] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:48075 lost connection: Failed to verify username!
+[03:33:15] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
