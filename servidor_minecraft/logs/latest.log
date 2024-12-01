@@ -485,3 +485,5 @@ Caused by: java.lang.NullPointerException
 [19:54:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has made the advancement [Magic Writing]
 [19:55:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo moved too quickly! -6.959526726080412,0.0,7.9179640223846945
 [19:56:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[20:17:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
+[20:19:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
