@@ -492,3 +492,4 @@ Caused by: java.lang.NullPointerException
 [20:29:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
 [20:29:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
 [20:34:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[20:56:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
