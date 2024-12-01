@@ -15620,3 +15620,86 @@ Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResu
 
 [17:37:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 50 times.
 
+[17:38:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:38:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 55 times.
+
+[17:38:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 55 times.
+
+[17:39:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:39:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 60 times.
+
+[17:39:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 60 times.
+
+[17:40:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:40:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 65 times.
+
+[17:40:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 65 times.
+
+[17:40:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:41:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 70 times.
+
+[17:41:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 70 times.
+
+[17:41:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:42:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 75 times.
+
+[17:42:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 75 times.
+
+[17:42:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:42:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 80 times.
+
+[17:42:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 80 times.
+
+[17:43:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:43:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 85 times.
+
+[17:43:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 85 times.
+
+[17:43:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:44:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 90 times.
+
+[17:44:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 90 times.
+
+[17:44:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:45:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:45:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 95 times.
+
+[17:45:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 95 times.
+
+[17:45:43] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player JustAPanda_ is 84b944ff-5195-4f2f-bf08-db1429d22146
+[17:45:43] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:45:43] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:45:43] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:45:43] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:45:43] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[17:45:44] [Netty Epoll Server IO #0/DEBUG] [FML]: FMLHandshakeServerState: $ModList:31 mods->FMLHandshakeServerState$2:HELLO
+[17:45:44] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 31 mods : minecraft@1.12.2,usefulbackpacks@1.5.1.31,mowziesmobs@1.5.8,kimetu_no_yaiba@1.3.0,cgm@0.15.3,darknesslib@1.1.2,mca@6.1.0,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1001,creepypastacraft@2,customspawner@3.11.4,hammertime@2.0.2,radixcore@1.12.x-2.2.1,mocreatures@12.0.5,ageofweapons@0.13.5,mcp@9.42,journeymap@1.12.2-5.7.0,securitycraft@v1.9.10.2,FML@8.0.99.99,obfuscate@0.2.7,tombstone@4.5.13,mutantbeasts@1.12.2-1.0.2,llibrary@1.7.9,uteamcore@2.2.4.107,bibliotheca@1.1.1-1.12.2,paraglider@1.0.1.5,forge@14.23.5.2860,herobrine@0.5.4,playerrevive@1.0,chococraft@0.9.1.52
+[17:45:44] [Netty Epoll Server IO #0/INFO] [FML]: Attempting connection with missing mods [flansmod] at CLIENT
+[17:45:44] [Netty Epoll Server IO #0/INFO] [journeymap]: CLIENT
+[17:45:44] [Netty Epoll Server IO #0/INFO] [FML]: Rejecting connection CLIENT: Flan's Mod: Requires version 5.10.0 or above, and below 5.11 but mod is not found on client.
+[17:45:44] [Netty Epoll Server IO #0/DEBUG] [FML]:   Next: ERROR
+[17:45:44] [Netty Epoll Server IO #0/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+Flan's Mod: Requires version 5.10.0 or above, and below 5.11 but mod is not found on client.
+[17:45:44] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JustAPanda_ lost connection: Server Mod rejections:
+Flan's Mod: Requires version 5.10.0 or above, and below 5.11 but mod is not found on client.
+[17:45:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ left the game
+[17:46:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:46:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 100 times.
+
+[17:46:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 100 times.
+
+[17:46:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:47:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 105 times.
+
+[17:47:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 105 times.
+
+[17:47:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:47:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 110 times.
+
+[17:47:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 110 times.
+
+[17:48:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:48:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 115 times.
+
+[17:48:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 115 times.
+
