@@ -1,263 +1,317 @@
-[03:03:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:03:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[03:03:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[03:03:31] [main/INFO] [FML]: Searching /workspaces/MSP-2.5/servidor_minecraft/./mods for mods
-[03:03:31] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.9.10.2.jar
-[03:03:31] [main/WARN] [FML]: The coremod Backpacked (com.mrcrayfish.backpacked.asm.BackpackedPlugin) is not signed!
-[03:03:31] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in llibrary-1.7.9-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[03:03:31] [main/WARN] [FML]: The coremod llibrary (net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin) is not signed!
-[03:03:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[03:03:31] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/MSP-2.5/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.9.10.2.jar Service=LaunchWrapper Env=SERVER
-[03:03:31] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
-[03:03:31] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[03:03:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:03:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:03:33] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[03:03:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:03:33] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[03:03:33] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2424686b
-[03:03:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[03:03:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:03:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:03:33] [main/INFO] [FML]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
-[03:03:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[03:03:34] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[03:03:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[03:03:34] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[03:03:34] [main/INFO] [FML]: Patching class net/minecraft/server/MinecraftServer
-[03:03:34] [main/INFO] [FML]:    Patching method run()V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:68]: [Backpacked] Starting to patch: net.minecraft.network.NetHandlerPlayServer#processCreativeInventoryAction(Lnet/minecraft/network/play/client/CPacketCreativeInventoryAction;)V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:71]: [Backpacked] Successfully patched: net.minecraft.network.NetHandlerPlayServer#processCreativeInventoryAction(Lnet/minecraft/network/play/client/CPacketCreativeInventoryAction;)V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:68]: [Backpacked] Starting to patch: net.minecraft.entity.player.EntityPlayer#<init>(Lnet/minecraft/world/World;Lcom/mojang/authlib/GameProfile;)V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:71]: [Backpacked] Successfully patched: net.minecraft.entity.player.EntityPlayer#<init>(Lnet/minecraft/world/World;Lcom/mojang/authlib/GameProfile;)V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:68]: [Backpacked] Starting to patch: net.minecraft.entity.player.EntityPlayer#<init>(Lnet/minecraft/world/World;Lcom/mojang/authlib/GameProfile;)V
-[03:03:34] [main/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:71]: [Backpacked] Successfully patched: net.minecraft.entity.player.EntityPlayer#<init>(Lnet/minecraft/world/World;Lcom/mojang/authlib/GameProfile;)V
-[03:03:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[03:03:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[03:03:39] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[03:03:39] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[03:03:39] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[03:03:40] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[03:03:40] [Server thread/INFO] [FML]: Searching /workspaces/MSP-2.5/servidor_minecraft/./mods for mods
-[03:03:40] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.9.10.2
-[03:03:41] [Server thread/INFO] [FML]: Disabling mod xaerominimap it is client side only.
-[03:03:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 20 mods to load
-[03:03:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[03:03:41] [Server thread/WARN] [FML]: Missing English translation for bibliotheca: assets/bibliotheca/lang/en_us.lang
-[03:03:41] [Server thread/WARN] [FML]: Missing English translation for customspawner: assets/customspawner/lang/en_us.lang
-[03:03:41] [Server thread/WARN] [FML]: Missing English translation for radixcore: assets/radixcore/lang/en_us.lang
-[03:03:41] [Server thread/INFO] [FML]: FML has found a non-mod file Xaeros_Minimap_1.19.5_Forge_1.12.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[03:03:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, backpacked, securitycraft, ageofweapons, bibliotheca, chococraft, customspawner, mocreatures, hammertime, jei, kimetu_no_yaiba, llibrary, mca, mowziesmobs, mutantbeasts, radixcore, srparasites] at CLIENT
-[03:03:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, backpacked, securitycraft, ageofweapons, bibliotheca, chococraft, customspawner, mocreatures, hammertime, jei, kimetu_no_yaiba, llibrary, mca, mowziesmobs, mutantbeasts, radixcore, srparasites] at SERVER
-[03:03:43] [Server thread/ERROR] [FML]: The mod llibrary is expecting signature b9f30a813bee3b9dd5652c460310cfcd54f6b7ec for source llibrary-1.7.9-1.12.2.jar, however there is no signature matching that description
-[03:03:43] [Server thread/WARN] [LLibrary]: Detected invalid fingerprint for file llibrary-1.7.9-1.12.2.jar! You will not receive support with this tampered version of llibrary!
-[03:03:43] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[03:03:43] [Server thread/INFO] [FML]: Found 1577 ObjectHolder annotations
-[03:03:43] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[03:03:43] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[03:03:43] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[03:03:43] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[03:03:44] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[03:03:44] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.github.com/gegy1000/a6639456aeb8edd92cbf7cbfcf9d65d9
-[03:03:44] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[03:03:45] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: OUTDATED Target: v1.9.11
-[03:03:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ageofweaponstableofages`, expected `ageofweapons`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ageofweaponscrusher`, expected `ageofweapons`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:45] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerwood has been registered by Bibliotheca for the mod hammertime
-[03:03:45] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerstone has been registered by Bibliotheca for the mod hammertime
-[03:03:45] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammeriron has been registered by Bibliotheca for the mod hammertime
-[03:03:45] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammergold has been registered by Bibliotheca for the mod hammertime
-[03:03:45] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerdiamond has been registered by Bibliotheca for the mod hammertime
-[03:03:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `teoni`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokushibou`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:46] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
-[03:03:46] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
-[03:03:46] [Server thread/INFO] [mca]: Loaded 1 supporters.
-[03:03:47] [Server thread/INFO] [srparasites]: [MOD COMPATIBILITY] Checked for 2 mods that may be in the list that need patches or alternative code
-[03:03:47] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:47] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:47] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:48] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:48] [Server thread/INFO] [mocreatures]: Registering entities...
-[03:03:49] [Server thread/INFO] [mocreatures]: Entity registration complete.
-[03:03:49] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:49] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:49] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:49] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:49] [Server thread/INFO] [FML]: Injecting itemstacks
-[03:03:49] [Server thread/INFO] [FML]: Itemstack injection complete
-[03:03:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[03:03:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[03:03:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[03:03:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[03:03:49] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:50] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `icon_kaze_1`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slash_mizu`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki3`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `takitubo`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nagi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kanten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `seisei`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sei_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minamo2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minamo`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom3`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_rengoku`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rengoku`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `siranui`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_enten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ugatinuki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enko_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enkohit_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kasumi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kasumi_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oboro`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nejire`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_sogi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sogi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokuhuu`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `idaten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sinato`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokuhuu_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sinato_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hekireki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tawamure`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moon`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `abs_moon`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kataware`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kataware_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tukibae`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tukibae_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rinbi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
-[03:03:50] [Server thread/INFO] [FML]: Injecting itemstacks
-[03:03:50] [Server thread/INFO] [FML]: Itemstack injection complete
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:03:50] [Server thread/INFO] [srparasites]: [MOD COMPATIBILITY] 0 of 2 modules activated
-[03:03:50] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 20 mods
-[03:03:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[03:03:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:multiblockmachine
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:sandbags
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:neonlights
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:concrete
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:nethermetal
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:basicmachine
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:metalpanel
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:slimy
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:block_milk
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:ladder0
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:tg_spawner
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:military_crate
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:stairs_concrete
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:debugblock
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:explosive_charge
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:bunkerdoor
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:simplemachine2
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:bioblob
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:block_creeper_acid
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:orecluster
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:camonet
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:basicore
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:camonet_top
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:stairs_metal
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:slimyladder
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:door3x3
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:lamp0
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:sand_hard
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:oredrill
-[03:03:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:simplemachine
-[03:03:51] [Server thread/INFO] [FML]: Applying holder lookups
-[03:03:51] [Server thread/INFO] [FML]: Holder lookups applied
-[03:03:52] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
-[03:03:52] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
-[03:03:52] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
-[03:03:52] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
-[03:03:54] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@60e669c2)
-[03:03:54] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 525 advancements
-[03:03:55] [Server thread/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:68]: [Backpacked] Starting to patch: net.minecraft.network.NetHandlerPlayServer#processCreativeInventoryAction(Lnet/minecraft/network/play/client/CPacketCreativeInventoryAction;)V
-[03:03:55] [Server thread/INFO] [STDOUT]: [com.mrcrayfish.backpacked.asm.BackpackedTransformer:patch:71]: [Backpacked] Successfully patched: net.minecraft.network.NetHandlerPlayServer#processCreativeInventoryAction(Lnet/minecraft/network/play/client/CPacketCreativeInventoryAction;)V
-[03:03:56] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@60e669c2)
-[03:03:56] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@60e669c2)
-[03:03:57] [Server thread/INFO] [FML]: Loading dimension -17 (world) (net.minecraft.server.dedicated.DedicatedServer@60e669c2)
-[03:03:59] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[03:04:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 86%
-[03:04:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (9.608s)! For help, type "help" or "?"
-[03:04:01] [Server thread/INFO] [FML]: Unloading dimension -1
-[03:04:01] [Server thread/INFO] [FML]: Unloading dimension 1
-[03:04:01] [Server thread/INFO] [FML]: Unloading dimension -17
-[03:06:09] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player oquez is 949f71f7-2431-4ef6-8666-ee29c6bf6d46
-[03:06:09] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[03:06:09] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 21 mods : minecraft@1.12.2,backpacked@1.4.2,mowziesmobs@1.5.8,FML@8.0.99.99,mutantbeasts@1.12.2-1.0.2,kimetu_no_yaiba@1.3.0,llibrary@1.7.9,srparasites@1.9.21,mca@6.1.0,jei@4.16.1.1001,bibliotheca@1.1.1-1.12.2,customspawner@3.11.4,hammertime@2.0.2,radixcore@1.12.x-2.2.1,forge@14.23.5.2859,mocreatures@12.0.5,ageofweapons@0.13.5,xaerominimap@1.19.5,mcp@9.42,chococraft@0.9.1.52,securitycraft@v1.9.10.2
-[03:06:11] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[03:06:11] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: oquez[/127.236.48.5:60991] logged in with entity id 2573 at (-35.5, 68.0, 242.5)
-[03:06:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez joined the game
-[03:08:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez has made the advancement [鬼滅の刃mod]
-[03:09:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez has made the advancement [Stone Age]
-[03:10:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez has made the advancement [Getting an Upgrade]
-[03:14:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Assimilated Sheep
-[03:14:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:15:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Assimilated Human
-[03:15:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Assimilated Sheep
-[03:15:59] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: oquez moved too quickly! 9.308879083896535,-3.464159374955443,-2.268441693675129
-[03:16:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
-[03:16:16] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: oquez moved too quickly! 9.313567485565802,-1.766367993957516,-3.5819397899788044
-[03:16:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <oquez> q
-[03:21:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:21:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:21:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:21:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:22:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:22:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:23:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:23:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:23:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:23:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
-[03:23:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:24:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:24:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:25:13] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
-[03:25:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
-[03:25:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:25:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:25:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:25:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by oquez
-[03:25:51] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:25:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:26:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:27:17] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id techguns:zombiesoldier
-[03:27:17] [Server thread/WARN] [net.minecraft.entity.EntityList]: Skipping Entity with id techguns:zombiesoldier
-[03:27:17] [Server thread/WARN] [net.minecraft.tileentity.TileEntity]: Skipping BlockEntity with id techguns:tgspawner
-[03:27:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:27:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: oquez was slain by Rupter
-[03:32:51] [User Authenticator #2/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:36701: Failed to verify username!
-[03:32:51] [User Authenticator #2/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
-[03:32:51] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:36701 lost connection: Failed to verify username!
-[03:32:59] [User Authenticator #3/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:45261: Failed to verify username!
-[03:32:59] [User Authenticator #3/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
-[03:32:59] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:45261 lost connection: Failed to verify username!
-[03:33:03] [User Authenticator #4/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:36017: Failed to verify username!
-[03:33:03] [User Authenticator #4/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
-[03:33:03] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:36017 lost connection: Failed to verify username!
-[03:33:06] [User Authenticator #5/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.134.2.119:48075: Failed to verify username!
-[03:33:06] [User Authenticator #5/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'peruanitopew' tried to join with an invalid session
-[03:33:06] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.134.2.119:48075 lost connection: Failed to verify username!
+[17:28:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[17:28:30] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[17:28:30] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[17:28:30] [main/INFO] [FML]: Searching /workspaces/MSP-2.5/servidor_minecraft/./mods for mods
+[17:28:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from [1.12.2] SecurityCraft v1.9.10.2.jar
+[17:28:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.61_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:28:30] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[17:28:30] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[17:28:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in llibrary-1.7.9-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:28:30] [main/WARN] [FML]: The coremod llibrary (net.ilexiconn.llibrary.server.core.plugin.LLibraryPlugin) is not signed!
+[17:28:30] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[17:28:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Paraglider-1.12.2-1.0.1.5.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[17:28:30] [main/WARN] [FML]: The coremod ParagliderLoadingPlugin (com.tictim.paraglider.asm.ParagliderLoadingPlugin) is not signed!
+[17:28:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[17:28:30] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8.3 Source=file:/workspaces/MSP-2.5/servidor_minecraft/./mods/%5B1.12.2%5D%20SecurityCraft%20v1.9.10.2.jar Service=LaunchWrapper Env=SERVER
+[17:28:30] [main/WARN] [FML]: The coremod SecurityCraftLoadingPlugin (net.geforcemods.securitycraft.SecurityCraftLoadingPlugin) is not signed!
+[17:28:30] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[17:28:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:28:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:32] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[17:28:32] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@213deac2
+[17:28:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:33] [main/INFO] [FML]: Found runtime patcher net.ilexiconn.llibrary.server.core.patcher.LLibraryRuntimePatcher
+[17:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:28:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:28:33] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:28:33] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[17:28:33] [main/INFO] [FML]: Patching class net/minecraft/server/MinecraftServer
+[17:28:33] [main/INFO] [FML]:    Patching method run()V
+[17:28:34] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[17:28:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[17:28:39] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[17:28:39] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[17:28:39] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[17:28:39] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[17:28:39] [Server thread/INFO] [FML]: Searching /workspaces/MSP-2.5/servidor_minecraft/./mods for mods
+[17:28:40] [Server thread/WARN] [FML]: Mod securitycraft is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version v1.9.10.2
+[17:28:41] [Server thread/INFO] [FML]: Forge Mod Loader has identified 31 mods to load
+[17:28:41] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[17:28:41] [Server thread/WARN] [FML]: Missing English translation for bibliotheca: assets/bibliotheca/lang/en_us.lang
+[17:28:41] [Server thread/WARN] [FML]: Missing English translation for customspawner: assets/customspawner/lang/en_us.lang
+[17:28:41] [Server thread/WARN] [FML]: Missing English translation for radixcore: assets/radixcore/lang/en_us.lang
+[17:28:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, ageofweapons, bibliotheca, chococraft, creativecore, creepypastacraft, customspawner, mocreatures, flansmod, cgm, hammertime, jei, journeymap, kimetu_no_yaiba, herobrine, llibrary, mca, mowziesmobs, mutantbeasts, paraglider, playerrevive, radixcore, tombstone, uteamcore, usefulbackpacks] at CLIENT
+[17:28:41] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, obfuscate, securitycraft, ageofweapons, bibliotheca, chococraft, creativecore, creepypastacraft, customspawner, mocreatures, flansmod, cgm, hammertime, jei, journeymap, kimetu_no_yaiba, herobrine, llibrary, mca, mowziesmobs, mutantbeasts, paraglider, playerrevive, radixcore, tombstone, uteamcore, usefulbackpacks] at SERVER
+[17:28:43] [Server thread/ERROR] [FML]: The mod llibrary is expecting signature b9f30a813bee3b9dd5652c460310cfcd54f6b7ec for source llibrary-1.7.9-1.12.2.jar, however there is no signature matching that description
+[17:28:43] [Server thread/WARN] [LLibrary]: Detected invalid fingerprint for file llibrary-1.7.9-1.12.2.jar! You will not receive support with this tampered version of llibrary!
+[17:28:43] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[17:28:43] [Server thread/INFO] [FML]: Found 1640 ObjectHolder annotations
+[17:28:43] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[17:28:43] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[17:28:43] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[17:28:43] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[17:28:44] [Forge Version Check/INFO] [forge.VersionCheck]: [usefulbackpacks] Found status: OUTDATED Target: 1.5.4.85
+[17:28:44] [Forge Version Check/INFO] [forge.VersionCheck]: [herobrine] Starting version check at https://raw.githubusercontent.com/Alex-MacLean/TheLegendOfHerobrine/master/update.json
+[17:28:44] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[17:28:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ageofweaponstableofages`, expected `ageofweapons`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:45] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ageofweaponscrusher`, expected `ageofweapons`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [securitycraft] Found status: OUTDATED Target: v1.9.12
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.github.com/gegy1000/a6639456aeb8edd92cbf7cbfcf9d65d9
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [uteamcore] Found status: OUTDATED Target: 2.2.5.305
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[17:28:45] [Forge Version Check/INFO] [forge.VersionCheck]: [tombstone] Found status: OUTDATED Target: 4.7.4
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded content pack list from Flan folder
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded part.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded bullet.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded attachment.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded grenade.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded gun.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded aa.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded vehicle.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded plane.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded mechaItem.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded mecha.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded tool.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded armour.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded armourBox.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded box.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded playerClass.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded team.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded itemHolder.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded rewardBox.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded loadout.
+[17:28:46] [Server thread/INFO] [flansmod]: Loaded glove.
+[17:28:46] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[17:28:46] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.player.EntityPlayer from class com.mrcrayfish.guns.event.CommonEvents
+[17:28:46] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerwood has been registered by Bibliotheca for the mod hammertime
+[17:28:46] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerstone has been registered by Bibliotheca for the mod hammertime
+[17:28:46] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammeriron has been registered by Bibliotheca for the mod hammertime
+[17:28:46] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammergold has been registered by Bibliotheca for the mod hammertime
+[17:28:46] [Server thread/INFO] [Bibliotheca]: [ITEM]: item.hammertime.itemhammerdiamond has been registered by Bibliotheca for the mod hammertime
+[17:28:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `teoni`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:46] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokushibou`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:46] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/latest
+[17:28:46] [Server thread/ERROR] [mca]: Failed to GET from: https://minecraftcomesalive.com/api/supporters
+[17:28:46] [Server thread/INFO] [mca]: Loaded 1 supporters.
+[17:28:47] [Server thread/INFO] [flansmod]: Registering Blocks
+[17:28:47] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:47] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:48] [Server thread/INFO] [flansmod]: Registering Items
+[17:28:48] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:48] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:48] [Server thread/INFO] [mocreatures]: Registering entities...
+[17:28:49] [Server thread/INFO] [mocreatures]: Entity registration complete.
+[17:28:49] [Server thread/INFO] [flansmod]: Registering Entities
+[17:28:49] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:49] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:49] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:49] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:49] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:28:49] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[17:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[17:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[17:28:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[17:28:49] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[17:28:49] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:49] [Server thread/INFO] [STDOUT]: [com.tictim.paraglider.Contents:getParagliderSkinRecipes:84]: net.minecraftforge.oredict.ShapelessOreRecipe@d2b9895
+[17:28:49] [Server thread/INFO] [STDOUT]: [com.tictim.paraglider.Contents:getParagliderSkinRecipes:84]: net.minecraftforge.oredict.ShapelessOreRecipe@3204b11e
+[17:28:49] [Server thread/INFO] [flansmod]: Registering Recipes.
+[17:28:49] [Server thread/INFO] [FML]: Applying holder lookups
+[17:28:49] [Server thread/INFO] [FML]: Holder lookups applied
+[17:28:50] [Server thread/INFO] [flansmod]: Initialising Flan's Mod.
+[17:28:50] [Server thread/INFO] [flansmod]: Loading complete.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `icon_kaze_1`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `slash_mizu`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kuizaki3`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `takitubo`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nagi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kanten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `seisei`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sei_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minamo2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `minamo`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom2`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lightning_custom3`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_rengoku`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rengoku`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `siranui`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_enten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `ugatinuki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enko_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `enkohit_head`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kasumi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kasumi_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oboro`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nejire`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hit_sogi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sogi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokuhuu`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `idaten`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sinato`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kokuhuu_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sinato_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `hekireki`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tawamure`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `moon`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `abs_moon`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kataware`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `kataware_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tukibae`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tukibae_hit`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `rinbi`, expected `kimetu_no_yaiba`. This could be a intended override, but in most cases indicates a broken mod.
+[17:28:50] [Server thread/INFO] [FML]: Injecting itemstacks
+[17:28:50] [Server thread/INFO] [FML]: Itemstack injection complete
+[17:28:50] [Server thread/WARN] [FML]: No types have been added to Biome creepypastacraft:scaryplains, types have been assigned on a best-effort guess: [PLAINS]
+[17:28:50] [Server thread/WARN] [FML]: No types have been added to Biome creepypastacraft:scarydesert, types have been assigned on a best-effort guess: [PLAINS, DRY]
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[17:28:50] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 31 mods
+[17:28:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[17:28:50] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod darknesslib which appears to be missing, things may not work well
+[17:28:50] [Server thread/ERROR] [FML.ModTracker]: This world was saved with mod grue which appears to be missing, things may not work well
+[17:28:50] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[17:28:50] [Server thread/INFO] [FML]: Registry EntityEntry: Found a missing id from the world grue:entitygrue
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:multiblockmachine
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestedstain
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:sandbags
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:neonlights
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:concrete
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitestain
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:nethermetal
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:basicmachine
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasiterubble
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitestructure
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:gore
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitecanister
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:metalpanel
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:slimy
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:block_milk
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:biomeheart
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:biomepurifier
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:ladder0
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:tg_spawner
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:military_crate
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:deadblood
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestedrubble
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitetendril
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:stairs_concrete
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:srpweb
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:debugblock
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:explosive_charge
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitesapling
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitestain_fleshstairs
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:bunkerdoor
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:simplemachine2
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:colonyheart
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestedore
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:colonyoutpost
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:evolutionlure
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:bioblob
+[17:28:50] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestremain
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitemouth
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:block_creeper_acid
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:tunnel
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:dispatchern
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:orecluster
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:camonet
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:basicore
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:camonet_top
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasiterubble_slabdouble
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:stairs_metal
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasiterubbledense
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestedtrunk
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:slimyladder
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:door3x3
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitethin
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:lamp0
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitetrunk
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasiterubble_slabhalf
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:canisteractive
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasiterubble_bonestairs
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitebush
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:sand_hard
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:parasitefog
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:oredrill
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:infestedbush
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world srparasites:bloodyice
+[17:28:51] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world techguns:simplemachine
+[17:28:51] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world grue:grue.whisper
+[17:28:51] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world grue:grue.spawn
+[17:28:51] [Server thread/INFO] [FML]: Registry SoundEvent: Found a missing id from the world grue:grue.death
+[17:28:51] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:entities
+[17:28:51] [Server thread/ERROR] [FML]:     grue:entitygrue: 111
+[17:28:51] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:soundevents
+[17:28:51] [Server thread/ERROR] [FML]:     grue:grue.death: 955
+[17:28:51] [Server thread/ERROR] [FML]:     grue:grue.whisper: 948
+[17:28:51] [Server thread/ERROR] [FML]:     grue:grue.spawn: 944
+[17:28:51] [Server thread/WARN] [FML]: Forge Mod Loader detected missing registry entries.
+
+There are 4 missing entries in this save.
+If you continue the missing entries will get removed.
+A world backup will be automatically created in your saves directory.
+
+Missing minecraft:entities:
+    grue:entitygrue
+Missing minecraft:soundevents:
+    grue:grue.spawn
+    grue:grue.death
+    grue:grue.whisper
+
+
+Run the command /fml confirm or or /fml cancel to proceed.
+Alternatively start the server with -Dfml.queryResult=confirm or -Dfml.queryResult=cancel to preselect the answer.
+[17:29:20] [Server thread/INFO] [FML]: confirmed
+[17:29:23] [Server thread/INFO] [FML]: World backup created at /workspaces/MSP-2.5/servidor_minecraft/world-20241201-172920.zip.
+[17:29:23] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[17:29:24] [Server thread/INFO] [FML]: Applying holder lookups
+[17:29:24] [Server thread/INFO] [FML]: Holder lookups applied
+[17:29:24] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.flansmod.client.debug.EntityDebugVector from class com.flansmod.client.debug.EntityDebugColor
+[17:29:24] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.flansmod.client.debug.EntityDebugVector from class com.flansmod.client.debug.EntityDebugColor
+[17:29:24] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.flansmod.client.debug.EntityDebugVector from class com.flansmod.client.debug.EntityDebugColor
+[17:29:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
+[17:29:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
+[17:29:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
+[17:29:25] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.EntityCreature from class drzhark.mocreatures.entity.MoCEntityMob
+[17:29:25] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@3ce4c04b)
+[17:29:26] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 659 advancements
+[17:29:28] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@3ce4c04b)
+[17:29:28] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@3ce4c04b)
+[17:29:29] [Server thread/INFO] [FML]: Loading dimension 5 (world) (net.minecraft.server.dedicated.DedicatedServer@3ce4c04b)
+[17:29:30] [Server thread/INFO] [FML]: Loading dimension -17 (world) (net.minecraft.server.dedicated.DedicatedServer@3ce4c04b)
+[17:29:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[17:29:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (40.910s)! For help, type "help" or "?"
+[17:29:32] [Server thread/INFO] [FML]: Unloading dimension -1
+[17:29:32] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:29:32] [Server thread/INFO] [FML]: Unloading dimension -17
+[17:34:19] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player TheCuriosooo is 8986d393-0714-4c5b-889f-2bb1f55b42ed
+[17:34:19] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[17:34:19] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 31 mods : minecraft@1.12.2,flansmod@5.10.0,usefulbackpacks@1.5.1.31,mowziesmobs@1.5.8,kimetu_no_yaiba@1.3.0,cgm@0.15.3,mca@6.1.0,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1001,creepypastacraft@2,customspawner@3.11.4,hammertime@2.0.2,radixcore@1.12.x-2.2.1,mocreatures@12.0.5,ageofweapons@0.13.5,mcp@9.42,journeymap@1.12.2-5.7.0,securitycraft@v1.9.10.2,FML@8.0.99.99,obfuscate@0.2.7,tombstone@4.5.13,mutantbeasts@1.12.2-1.0.2,llibrary@1.7.9,uteamcore@2.2.4.107,bibliotheca@1.1.1-1.12.2,paraglider@1.0.1.5,forge@14.23.5.2860,herobrine@0.5.4,playerrevive@1.0,chococraft@0.9.1.52
+[17:34:19] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[17:34:20] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:34:20] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: TheCuriosooo[/127.7.126.38:40041] logged in with entity id 2715 at (-13.543411222666943, 64.0, 260.2518765182875)
+[17:34:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo joined the game
