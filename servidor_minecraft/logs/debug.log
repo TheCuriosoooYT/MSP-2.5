@@ -16897,3 +16897,66 @@ Caused by: java.lang.NullPointerException
 [20:29:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1080 times.
 
 [20:29:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:30:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:30:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1085 times.
+
+[20:30:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1085 times.
+
+[20:31:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:31:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1090 times.
+
+[20:31:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1090 times.
+
+[20:31:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:32:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1095 times.
+
+[20:32:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1095 times.
+
+[20:32:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:32:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1100 times.
+
+[20:32:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1100 times.
+
+[20:33:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:33:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1105 times.
+
+[20:33:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1105 times.
+
+[20:34:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:34:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[20:34:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1110 times.
+
+[20:34:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1110 times.
+
+[20:34:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:35:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1115 times.
+
+[20:35:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1115 times.
+
+[20:35:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:36:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1120 times.
+
+[20:36:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1120 times.
+
+[20:36:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:37:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1125 times.
+
+[20:37:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1125 times.
+
+[20:37:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:37:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:37:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1130 times.
+
+[20:37:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1130 times.
+
+[20:38:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:38:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1135 times.
+
+[20:38:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1135 times.
+
+[20:39:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:39:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1140 times.
+
+[20:39:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1140 times.
+
+[20:40:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
