@@ -904,6 +904,12 @@
     },
     "done": true
   },
+  "tombstone:tutorial/chain_death": {
+    "criteria": {
+      "coded_trigger": "2024-12-01 19:42:06 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2024-11-29 20:08:40 +0000"
@@ -1139,6 +1145,7 @@
       "birch_forest": "2024-11-29 20:10:51 +0000",
       "deep_ocean": "2024-11-29 20:47:49 +0000",
       "beaches": "2024-11-29 19:52:22 +0000",
+      "extreme_hills_with_trees": "2024-12-01 19:46:03 +0000",
       "forest_hills": "2024-11-29 19:53:24 +0000",
       "plains": "2024-11-29 19:50:10 +0000",
       "taiga": "2024-11-30 20:49:08 +0000",

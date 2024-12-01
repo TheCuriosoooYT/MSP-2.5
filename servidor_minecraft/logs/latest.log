@@ -458,3 +458,24 @@ Caused by: java.lang.NullPointerException
 [18:57:16] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
 [18:58:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo was slain by Zombie
 [18:58:15] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-12, y:64, z:245] in the dimension 0
+[19:42:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo is bleeding...
+[19:42:01] [Server thread/INFO] [tombstone]: The death event of the player TheCuriosooo was cancelled by another mod
+[19:42:01] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
+[19:42:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has reached the goal [Chain Death]
+[19:42:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo blew up
+[19:42:06] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-29, y:65, z:272] in the dimension 0
+[19:43:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
+[19:45:23] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo moved too quickly! -8.187032166646532,0.0,-7.178172040321897
+[19:45:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:33] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:38] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:38] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:38] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:38] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:46:10] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo moved too quickly! 4.741389347809559,0.0,9.572172276007066
