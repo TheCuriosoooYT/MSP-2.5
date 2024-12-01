@@ -16241,3 +16241,69 @@ Caused by: java.lang.NullPointerException
 [18:48:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 475 times.
 
 [18:49:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:49:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 480 times.
+
+[18:49:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 480 times.
+
+[18:49:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:50:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 485 times.
+
+[18:50:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 485 times.
+
+[18:50:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:51:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 490 times.
+
+[18:51:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 490 times.
+
+[18:51:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:52:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 495 times.
+
+[18:52:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 495 times.
+
+[18:52:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:52:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:52:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 500 times.
+
+[18:52:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 500 times.
+
+[18:53:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:53:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 505 times.
+
+[18:53:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 505 times.
+
+[18:54:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:54:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 510 times.
+
+[18:54:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 510 times.
+
+[18:55:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:55:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 515 times.
+
+[18:55:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 515 times.
+
+[18:55:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:56:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 520 times.
+
+[18:56:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 520 times.
+
+[18:56:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:57:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 525 times.
+
+[18:57:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 525 times.
+
+[18:57:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo is bleeding...
+[18:57:16] [Server thread/INFO] [tombstone]: The death event of the player TheCuriosooo was cancelled by another mod
+[18:57:16] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
+[18:57:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:57:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 530 times.
+
+[18:57:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 530 times.
+
+[18:58:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:58:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo was slain by Zombie
+[18:58:15] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-12, y:64, z:245] in the dimension 0
+[18:58:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 535 times.
+
+[18:58:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 535 times.
+
+[18:58:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
