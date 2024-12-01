@@ -16832,3 +16832,68 @@ Caused by: java.lang.NullPointerException
 [20:19:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1020 times.
 
 [20:19:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:20:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1025 times.
+
+[20:20:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1025 times.
+
+[20:20:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:20:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
+[20:21:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1030 times.
+
+[20:21:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1030 times.
+
+[20:21:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:22:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1035 times.
+
+[20:22:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1035 times.
+
+[20:22:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:22:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:22:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1040 times.
+
+[20:22:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1040 times.
+
+[20:23:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:23:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1045 times.
+
+[20:23:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1045 times.
+
+[20:24:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:24:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1050 times.
+
+[20:24:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1050 times.
+
+[20:25:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:25:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1055 times.
+
+[20:25:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1055 times.
+
+[20:25:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:25:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[20:26:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1060 times.
+
+[20:26:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1060 times.
+
+[20:26:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:27:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1065 times.
+
+[20:27:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1065 times.
+
+[20:27:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:27:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1070 times.
+
+[20:27:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1070 times.
+
+[20:28:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:28:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1075 times.
+
+[20:28:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1075 times.
+
+[20:28:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[20:29:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[20:29:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
+[20:29:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 1080 times.
+
+[20:29:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 1080 times.
+
+[20:29:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
