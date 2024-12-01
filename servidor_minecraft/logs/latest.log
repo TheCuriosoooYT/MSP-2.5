@@ -479,3 +479,9 @@ Caused by: java.lang.NullPointerException
 [19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
 [19:45:40] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
 [19:46:10] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo moved too quickly! 4.741389347809559,0.0,9.572172276007066
+[19:53:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:53:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:53:32] [Server thread/WARN] [net.minecraft.entity.SharedMonsterAttributes]: Ignoring unknown attribute 'techguns.radiationResistance'
+[19:54:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has made the advancement [Magic Writing]
+[19:55:37] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo moved too quickly! -6.959526726080412,0.0,7.9179640223846945
+[19:56:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
