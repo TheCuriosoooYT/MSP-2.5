@@ -494,3 +494,9 @@ Caused by: java.lang.NullPointerException
 [20:34:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
 [20:56:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Creative Mode]
 [21:02:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TheCuriosooo: Set own game mode to Survival Mode]
+[21:11:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo is bleeding...
+[21:11:57] [Server thread/INFO] [tombstone]: The death event of the player TheCuriosooo was cancelled by another mod
+[21:11:57] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
+[21:12:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo has reached the goal [Strong or Careful]
+[21:12:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo fell from a high place
+[21:12:00] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-1366, y:10, z:17] in the dimension 0
