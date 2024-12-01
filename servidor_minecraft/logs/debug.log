@@ -15801,3 +15801,284 @@ Flan's Mod: Requires version 5.10.0 or above, and below 5.11 but mod is not foun
 [17:58:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 175 times.
 
 [17:58:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:59:21] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NullPointerException
+	at com.ewyboy.hammertime.items.ItemBaseTool.func_179218_a(ItemBaseTool.java:55) ~[ItemBaseTool.class:?]
+	at net.minecraft.item.ItemStack.func_179548_a(ItemStack.java:376) ~[aip.class:?]
+	at net.minecraft.server.management.PlayerInteractionManager.func_180237_b(PlayerInteractionManager.java:320) ~[or.class:?]
+	at net.minecraft.server.management.PlayerInteractionManager.func_180784_a(PlayerInteractionManager.java:216) ~[or.class:?]
+	at net.minecraft.network.NetHandlerPlayServer.func_147345_a(NetHandlerPlayServer.java:693) ~[pa.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerDigging.func_148833_a(SourceFile:40) ~[lp.class:?]
+	at net.minecraft.network.play.client.CPacketPlayerDigging.func_148833_a(SourceFile:10) ~[lp.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(SourceFile:13) ~[hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[17:59:27] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JustAPanda_ lost connection: Disconnected
+[17:59:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ left the game
+[17:59:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 180 times.
+
+[17:59:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 180 times.
+
+[17:59:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:00:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:00:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 185 times.
+
+[18:00:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 185 times.
+
+[18:01:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:01:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 190 times.
+
+[18:01:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 190 times.
+
+[18:01:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:02:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 195 times.
+
+[18:02:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 195 times.
+
+[18:02:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:02:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 200 times.
+
+[18:02:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 200 times.
+
+[18:02:56] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: com.mojang.authlib.GameProfile@52207da3[id=<null>,name=JustAPanda_,properties={},legacy=false] (/127.48.172.117:45231) lost connection: Disconnected
+[18:02:56] [User Authenticator #5/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player JustAPanda_ is 84b944ff-5195-4f2f-bf08-db1429d22146
+[18:02:59] [User Authenticator #6/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player JustAPanda_ is 84b944ff-5195-4f2f-bf08-db1429d22146
+[18:02:59] [Server thread/TRACE] [FML]: Handshake channel activating
+[18:02:59] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[18:02:59] [Server thread/DEBUG] [FML]:   Next: HELLO
+[18:02:59] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[18:02:59] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[18:02:59] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:32 mods->FMLHandshakeServerState$2:HELLO
+[18:02:59] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 32 mods : minecraft@1.12.2,flansmod@5.10.0,usefulbackpacks@1.5.1.31,mowziesmobs@1.5.8,kimetu_no_yaiba@1.3.0,cgm@0.15.3,darknesslib@1.1.2,mca@6.1.0,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1001,creepypastacraft@2,customspawner@3.11.4,hammertime@2.0.2,radixcore@1.12.x-2.2.1,mocreatures@12.0.5,ageofweapons@0.13.5,mcp@9.42,journeymap@1.12.2-5.7.0,securitycraft@v1.9.10.2,FML@8.0.99.99,obfuscate@0.2.7,tombstone@4.5.13,mutantbeasts@1.12.2-1.0.2,llibrary@1.7.9,uteamcore@2.2.4.107,bibliotheca@1.1.1-1.12.2,paraglider@1.0.1.5,forge@14.23.5.2860,herobrine@0.5.4,playerrevive@1.0,chococraft@0.9.1.52
+[18:02:59] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[18:02:59] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[18:02:59] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[18:02:59] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[18:03:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[18:03:01] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[18:03:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[18:03:01] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:03:01] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: JustAPanda_[/127.48.172.117:47919] logged in with entity id 13526 at (15.149667525666704, 66.17675927506424, 181.95062194187645)
+[18:03:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ joined the game
+[18:03:01] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[18:03:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:03:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [骨を入手する]
+[18:03:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 205 times.
+
+[18:03:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 205 times.
+
+[18:04:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:04:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 210 times.
+
+[18:04:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 210 times.
+
+[18:04:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:05:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 215 times.
+
+[18:05:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 215 times.
+
+[18:05:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:06:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 220 times.
+
+[18:06:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 220 times.
+
+[18:06:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:06:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [Knowledge of Death]
+[18:06:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [Ashes 'n Bones]
+[18:06:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [A Strange Grave's Dust]
+[18:07:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 225 times.
+
+[18:07:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 225 times.
+
+[18:07:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:07:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:07:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 230 times.
+
+[18:07:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 230 times.
+
+[18:08:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [] Spread the word.
+[18:08:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ is bleeding...
+[18:08:17] [Server thread/INFO] [tombstone]: The death event of the player JustAPanda_ was cancelled by another mod
+[18:08:17] [Server thread/INFO] [tombstone]: JustAPanda_ has successfully been saved
+[18:08:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ was slain by Smile Dog
+[18:08:23] [Server thread/INFO] [tombstone]: The last known grave of JustAPanda_ is at location [name:Last Grave, x:-39, y:75, z:259] in the dimension 0
+[18:08:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [Your First Grave]
+[18:08:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:08:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo is bleeding...
+[18:08:40] [Server thread/INFO] [tombstone]: The death event of the player TheCuriosooo was cancelled by another mod
+[18:08:40] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
+[18:08:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 235 times.
+
+[18:08:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 235 times.
+
+[18:08:42] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo was slain by Smile Dog
+[18:08:42] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-17, y:65, z:268] in the dimension 0
+[18:09:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:09:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 240 times.
+
+[18:09:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 240 times.
+
+[18:10:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:10:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 245 times.
+
+[18:10:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 245 times.
+
+[18:10:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:11:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 250 times.
+
+[18:11:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 250 times.
+
+[18:11:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:12:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 255 times.
+
+[18:12:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 255 times.
+
+[18:12:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:12:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 260 times.
+
+[18:12:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 260 times.
+
+[18:13:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:13:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo is bleeding...
+[18:13:06] [Server thread/INFO] [tombstone]: The death event of the player TheCuriosooo was cancelled by another mod
+[18:13:06] [Server thread/INFO] [tombstone]: TheCuriosooo has successfully been saved
+[18:13:11] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TheCuriosooo lost connection: Disconnected
+[18:13:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo left the game
+[18:13:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo blew up
+[18:13:11] [Server thread/INFO] [tombstone]: The last known grave of TheCuriosooo is at location [name:Last Grave, x:-14, y:60, z:255] in the dimension 0
+[18:13:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 265 times.
+
+[18:13:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 265 times.
+
+[18:13:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:14:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 270 times.
+
+[18:14:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 270 times.
+
+[18:14:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:15:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:15:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 275 times.
+
+[18:15:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 275 times.
+
+[18:16:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:16:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 280 times.
+
+[18:16:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 280 times.
+
+[18:16:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:17:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 285 times.
+
+[18:17:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 285 times.
+
+[18:17:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:17:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 290 times.
+
+[18:17:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 290 times.
+
+[18:18:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:18:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 295 times.
+
+[18:18:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 295 times.
+
+[18:19:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:19:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 300 times.
+
+[18:19:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 300 times.
+
+[18:19:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:20:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 305 times.
+
+[18:20:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 305 times.
+
+[18:20:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:21:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 310 times.
+
+[18:21:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 310 times.
+
+[18:21:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:21:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [JustAPanda_: Set own game mode to Creative Mode]
+[18:22:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 315 times.
+
+[18:22:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 315 times.
+
+[18:22:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:22:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:22:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 320 times.
+
+[18:22:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 320 times.
+
+[18:23:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [JustAPanda_: Set own game mode to Survival Mode]
+[18:23:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:23:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [JustAPanda_: Set own game mode to Creative Mode]
+[18:23:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 325 times.
+
+[18:23:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 325 times.
+
+[18:23:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [JustAPanda_: Set own game mode to Survival Mode]
+[18:24:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:24:32] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 330 times.
+
+[18:24:32] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 330 times.
+
+[18:25:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:25:22] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 335 times.
+
+[18:25:22] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 335 times.
+
+[18:25:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:26:12] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 340 times.
+
+[18:26:12] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 340 times.
+
+[18:26:32] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:26:53] [User Authenticator #7/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: UUID of player TheCuriosooo is 8986d393-0714-4c5b-889f-2bb1f55b42ed
+[18:26:53] [Server thread/TRACE] [FML]: Handshake channel activating
+[18:26:53] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[18:26:53] [Server thread/DEBUG] [FML]:   Next: HELLO
+[18:26:53] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[18:26:53] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[18:26:53] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:31 mods->FMLHandshakeServerState$2:HELLO
+[18:26:53] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 31 mods : minecraft@1.12.2,flansmod@5.10.0,usefulbackpacks@1.5.1.31,mowziesmobs@1.5.8,kimetu_no_yaiba@1.3.0,cgm@0.15.3,mca@6.1.0,creativecoredummy@1.0.0,creativecore@1.10.0,jei@4.16.1.1001,creepypastacraft@2,customspawner@3.11.4,hammertime@2.0.2,radixcore@1.12.x-2.2.1,mocreatures@12.0.5,ageofweapons@0.13.5,mcp@9.42,journeymap@1.12.2-5.7.0,securitycraft@v1.9.10.2,FML@8.0.99.99,obfuscate@0.2.7,tombstone@4.5.13,mutantbeasts@1.12.2-1.0.2,llibrary@1.7.9,uteamcore@2.2.4.107,bibliotheca@1.1.1-1.12.2,paraglider@1.0.1.5,forge@14.23.5.2860,herobrine@0.5.4,playerrevive@1.0,chococraft@0.9.1.52
+[18:26:53] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[18:26:53] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[18:26:53] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[18:26:53] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[18:26:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[18:26:54] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[18:26:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[18:26:54] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[18:26:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: TheCuriosooo[/127.7.126.38:36189] logged in with entity id 21424 at (-13.145119189233645, 61.0, 255.35647214834881)
+[18:26:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TheCuriosooo joined the game
+[18:26:54] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[18:27:02] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 345 times.
+
+[18:27:02] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 345 times.
+
+[18:27:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> caiga call
+[18:27:17] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:27:52] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 350 times.
+
+[18:27:52] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 350 times.
+
+[18:28:02] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:28:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> agarre eso
+[18:28:42] [Server thread/DEBUG] [FML]: The world 16ae395a (world) may have leaked: seen 355 times.
+
+[18:28:42] [Server thread/DEBUG] [FML]: The world 3c21c9f6 (world) may have leaked: seen 355 times.
+
+[18:28:47] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[18:28:56] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> estan faciles de hacer
+[18:29:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> sisas
+[18:29:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> 3 de hierro 1 de polvora
