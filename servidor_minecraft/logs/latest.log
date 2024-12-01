@@ -434,3 +434,22 @@ Caused by: java.lang.NullPointerException
 [18:34:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> thanks bro
 [18:37:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> atras suyo
 [18:37:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> un creeper
+[18:39:52] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ has made the advancement [Not Today, Thank You]
+[18:40:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> ya me aburri
+[18:42:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ is bleeding...
+[18:42:10] [Server thread/INFO] [tombstone]: The death event of the player JustAPanda_ was cancelled by another mod
+[18:42:10] [Server thread/INFO] [tombstone]: JustAPanda_ has successfully been saved
+[18:42:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> ????
+[18:42:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ blew up
+[18:42:23] [Server thread/INFO] [tombstone]: The last known grave of JustAPanda_ is at location [name:Last Grave, x:-18, y:63, z:281] in the dimension 0
+[18:42:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> no entendi
+[18:42:29] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> ya lo iba a revivir
+[18:43:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> hay que jugar con mas gente
+[18:43:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> dios mio mi casita :c
+[18:43:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <TheCuriosooo> invite
+[18:43:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> ps si yo invito y no llega ese hp
+[18:43:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> y a los otros dos que iban a jguar les robaron la cuenta
+[18:44:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> me voy
+[18:44:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <JustAPanda_> ya me aburri
+[18:44:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: JustAPanda_ lost connection: Disconnected
+[18:44:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: JustAPanda_ left the game

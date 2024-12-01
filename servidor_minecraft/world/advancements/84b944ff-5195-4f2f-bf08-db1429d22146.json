@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-12-01 18:38:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2024-11-29 20:35:34 +0000"
@@ -287,6 +293,12 @@
     },
     "done": true
   },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-01 18:39:52 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_wool": {
     "criteria": {
       "has_white_wool": "2024-11-29 20:35:34 +0000"
@@ -422,6 +434,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2024-11-29 20:20:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-12-01 18:38:34 +0000"
     },
     "done": true
   },
@@ -581,9 +599,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-12-01 18:38:34 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/tnt": {
     "criteria": {
       "has_gunpowder": "2024-11-29 20:43:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/string_to_wool": {
+    "criteria": {
+      "has_string": "2024-12-01 18:38:34 +0000"
     },
     "done": true
   },
@@ -905,6 +935,7 @@
     "criteria": {
       "skeleton": "2024-11-29 20:11:06 +0000",
       "zombie": "2024-11-29 20:39:22 +0000",
+      "spider": "2024-12-01 18:38:33 +0000",
       "creeper": "2024-12-01 18:23:27 +0000"
     },
     "done": false
